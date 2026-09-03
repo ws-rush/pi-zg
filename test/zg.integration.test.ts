@@ -11,7 +11,7 @@ const zg = process.env.ZG_BIN || "zg";
 const hasZg = spawnSync(zg, ["--version"], { stdio: "ignore" }).status === 0;
 
 test("installed zg supports the direct managed-rg and status contracts", { skip: !hasZg }, async () => {
-  const root = await mkdtemp(join(tmpdir(), "pi-zg-"));
+  const root = await mkdtemp(join(tmpdir(), "pi-zvec-grep-"));
   try {
     await mkdir(join(root, "src"));
     await writeFile(join(root, "src", "theme.ts"), 'export const loadTheme = () => "light";\n');

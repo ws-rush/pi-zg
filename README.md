@@ -1,4 +1,4 @@
-# pi-zg
+# pi-zvec-grep
 
 Search your codebase from Pi with [`zg`](https://github.com/zvec-ai/zvec-grep).
 
@@ -23,7 +23,7 @@ npm install -g @zvec/zvec-grep
 2. Install this extension:
 
 ```sh
-pi install npm:pi-zg
+pi install npm:pi-zvec-grep
 ```
 
 3. Open your project in Pi.

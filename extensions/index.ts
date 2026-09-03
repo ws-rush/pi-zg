@@ -101,7 +101,7 @@ export default function (pi: ExtensionAPI) {
   const publishResult = (title: string, root: string, output: string) => {
     const formatted = formatOutput(output);
     pi.sendMessage({
-      customType: "pi-zg-result",
+      customType: "pi-zvec-grep-result",
       content: `${title} (${root})\n\n${formatted.text}`,
       display: true,
       details: { root, truncated: formatted.truncated },

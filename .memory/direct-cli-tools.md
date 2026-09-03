@@ -1,6 +1,6 @@
 ---
 name: direct-cli-tool-integration
-description: pi-zg exposes zvec-grep-compatible direct Pi tools backed by the local zg CLI rather than MCP.
+description: pi-zvec-grep exposes zvec-grep-compatible direct Pi tools backed by the local zg CLI rather than MCP.
 type: decision
 ---
 

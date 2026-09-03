@@ -106,7 +106,7 @@ function refreshArgs(freshness: ZgFreshness | undefined, autoUpdate: boolean | u
     throw new Error("freshness must be eventual or wait_for_fresh.");
   }
   if (autoUpdate) {
-    throw new Error("autoUpdate is unavailable because pi-zg forces direct CLI mode; use wait_for_fresh instead.");
+    throw new Error("autoUpdate is unavailable because pi-zvec-grep forces direct CLI mode; use wait_for_fresh instead.");
   }
   if (freshness === "wait_for_fresh") return ["--refresh", "wait"];
   if (freshness === "eventual" && autoUpdate === false) return ["--refresh", "off"];
